@@ -1,0 +1,123 @@
+{
+    "nogemsg": {
+        "embed": {
+            "title": "**ERROR**",
+            "color": "GREEN",
+            "description": "You need to type this in a server that I'm in",
+            "footer": {
+                "icon_url": "https://cdn.discordapp.com/avatars/660862491102019604/5b28dadf6cf852c943e1df0a82dad850.webp",
+                "text": "Brought to you by Minecrafty999"
+            }
+        }
+    },
+    "nopacemg": {
+        "embed": {
+            "title": "**ERROR**",
+            "color": "GREEN",
+            "description": "You need to specify who the bot owner is.",
+            "footer": {
+                "icon_url": "https://cdn.discordapp.com/avatars/660862491102019604/5b28dadf6cf852c943e1df0a82dad850.webp",
+                "text": "Brought to you by Minecrafty999"
+            }
+        }
+    },
+    "nopacemsg2": {
+        "embed": {
+            "title": "**ERROR**",
+            "color": "GREEN",
+            "description": "You need to sepcify the bots username",
+            "footer": {
+                "icon_url": "https://cdn.discordapp.com/avatars/660862491102019604/5b28dadf6cf852c943e1df0a82dad850.webp",
+                "text": "Brought to you by Minecrafty999"
+            }
+        }
+    },
+    "nopacemsg3": {
+        "embed": {
+            "title": "**ERROR**",
+            "color": "GREEN",
+            "description": "You need to specify the bot owner and the bots username",
+            "footer": {
+                "icon_url": "https://cdn.discordapp.com/avatars/660862491102019604/5b28dadf6cf852c943e1df0a82dad850.webp",
+                "text": "Brought to you by Minecrafty999"
+            }
+        }
+    },
+    "nopacemsg4": {
+        "embed": {
+            "title": "**ERROR**",
+            "color": "GREEN",
+            "description": "You need to specify why you are declining the bot",
+            "footer": {
+                "icon_url": "https://cdn.discordapp.com/avatars/660862491102019604/5b28dadf6cf852c943e1df0a82dad850.webp",
+                "text": "Brought to you by Minecrafty999"
+            }
+        }
+    },
+    "nopacemsg5": {
+        "embed": {
+            "title": "**ERROR**",
+            "color": "GREEN",
+            "description": "You need to specify the bot owners username, the bots username and why you are declining it.",
+            "footer": {
+                "icon_url": "https://cdn.discordapp.com/avatars/660862491102019604/5b28dadf6cf852c943e1df0a82dad850.webp",
+                "text": "Brought to you by Minecrafty999"
+            }
+        }
+    },
+    "donemsg": {
+        "embed": {
+            "title": "**DONE**",
+            "color": "BLUE",
+            "description": "Done with the setup",
+            "footer": {
+                "icon_url": "https://cdn.discordapp.com/avatars/660862491102019604/5b28dadf6cf852c943e1df0a82dad850.webp",
+                "text": "Brought to you by Minecrafty999"
+            }
+        }
+    },
+    "ndoneemsg": {
+        "embed": {
+            "title": "**ERROR**",
+            "color": "GREEN",
+            "description": "You aren't the owner of the server",
+            "footer": {
+                "icon_url": "https://cdn.discordapp.com/avatars/660862491102019604/5b28dadf6cf852c943e1df0a82dad850.webp",
+                "text": "Brought to you by Minecrafty999"
+            }
+        }
+    },
+    "nwaemsg": {
+        "embed": {
+            "title": "**ERROR**",
+            "color": "GREEN",
+            "description": "You dont have the permissions to use this command"
+        }
+    },
+    "helpemsg": {
+        "embed": {
+            "title": "__**HELP**__",
+            "color": "ORAGNE",
+            "fields": [
+                {
+                    "name": "`$setup`",
+                    "value": "This command is for th server owner only"
+                },
+                {
+                    "name": "`$help`",
+                    "value": "Idk why you need to know what this command does because you are useing it right now"
+                },
+                {
+                    "name": "`$accept (bot owners username here) (bots username here)`",
+                    "value": "This command is online for the Website Admins. It will grant the bot access to be on the website",
+                    "inline": true
+                },
+                {
+                    "name": "`$decline (bot owners username here) (bots username here) (reason why you are declineing it here)`",
+                    "value": "The opposite of the  accept command",
+                    "inline": true
+                }
+            ]
+        }
+    }
+}
